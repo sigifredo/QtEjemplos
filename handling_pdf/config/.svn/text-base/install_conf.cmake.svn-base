@@ -1,0 +1,24 @@
+
+if(DEB OR DEB_DEV)
+        set(CPACK_GENERATOR "DEB")
+
+        set(CPACK_DEBIAN_PACKAGE_MAINTAINER "Cabitech SAS <info@cabitech.co>")
+        set(CPACK_DEBIAN_PACKAGE_VENDOR "Cabitech S.A.S.")
+        set(CPACK_DEBIAN_PACKAGE_PRIORITY "required")
+
+        if(DEB_DEV)
+                set(CPACK_DEBIAN_PACKAGE_DESCRIPTION "Cabeceras de la librería de utilidades de Cabitech S.A.S.")
+                set(CPACK_DEBIAN_PACKAGE_DEPENDS "catu (= ${CATU_VERSION_STR})")
+                set(CPACK_PACKAGE_NAME "${PROJECT_NAME}-dev")
+        else()
+                set(CPACK_DEBIAN_PACKAGE_DESCRIPTION "Librería de utilidades de Cabitech S.A.S.")
+                set(CPACK_DEBIAN_PACKAGE_SHLIBDEPS ON)
+                set(CPACK_PACKAGE_NAME "${PROJECT_NAME}")
+        endif()
+        set(CPACK_PACKAGE_VERSION "${CATU_VERSION_STR}")
+        set(CPACK_PACKAGE_VERSION_MAJOR "${CATU_VERSION_ANIO}")
+        set(CPACK_PACKAGE_VERSION_MINOR "${CATU_VERSION_MES}")
+        set(CPACK_PACKAGE_VERSION_PATCH "${CATU_VERSION_DIA}${CATU_VERSION_HORA}")
+        
+        include(CPack)
+endif()

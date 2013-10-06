@@ -1,0 +1,7 @@
+find_package(Qt4 REQUIRED QtCore QtGui QtXml QtDbus QtDeclarative)
+find_package(X11 REQUIRED)
+
+include( ${QT_USE_FILE} )
+include_directories(${X11_INCLUDE_DIR})
+
+set( DEPS_LIBS ${QT_LIBRARIES} ${X11_LIBRARIES} )

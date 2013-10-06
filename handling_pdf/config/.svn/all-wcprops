@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/catu/!svn/ver/26/branches/desarrollo/config
+END
+catu_conf.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/catu/!svn/ver/84/branches/desarrollo/config/catu_conf.cmake
+END
+install_conf.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/catu/!svn/ver/26/branches/desarrollo/config/install_conf.cmake
+END
+deps_conf.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/catu/!svn/ver/74/branches/desarrollo/config/deps_conf.cmake
+END

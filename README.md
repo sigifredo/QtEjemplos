@@ -16,3 +16,9 @@ Demos tomados de [proyecto Qt / demos](http://qt-project.org/doc/qt-4.8/qdeclara
 
 * flick
 
+
+Handling PDF
+------------
+
+Demo para la creación de archivos en formato PDF usando Qt.
+
