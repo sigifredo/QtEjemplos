@@ -15,6 +15,7 @@ QML
 Demos tomados de [proyecto Qt / demos](http://qt-project.org/doc/qt-4.8/qdeclarativeexamples.html):
 
 * flick
+* photoviewer
 
 
 Handling PDF
