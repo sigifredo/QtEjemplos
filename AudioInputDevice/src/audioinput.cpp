@@ -39,6 +39,8 @@
 ****************************************************************************/
 
 
+#include <audioinput.h>
+
 #include <stdlib.h>
 #include <math.h>
 
@@ -51,7 +53,6 @@
 #include <QtMultimedia/QAudioInput>
 #include <QtWidgets/QVBoxLayout>
 
-#include "audioinput.h"
 
 #define PUSH_MODE_LABEL "Enable push mode"
 #define PULL_MODE_LABEL "Enable pull mode"
