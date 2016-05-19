@@ -25,6 +25,8 @@ void Server::incomingConnection(int socketDescriptor)
 
     connect(pConnection, SIGNAL(disconnected()), this, SLOT(disconnected()));
     _pClients->append(pConnection);
+
+    std::printf("new connection: %s\n", pConnection->localAddress().toString().toStdString().c_str());
 }
 
 void Server::disconnected()
