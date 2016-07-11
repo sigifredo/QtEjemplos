@@ -46,7 +46,7 @@ const qreal DefaultVolume = -1.0;
 
 int main (int argc, char *argv[])
 {
-    Q_INIT_RESOURCE(mediaplayer);
+    // Q_INIT_RESOURCE(mediaplayer);
     QApplication app(argc, argv);
     app.setApplicationName("Media Player");
     app.setOrganizationName("Qt");
