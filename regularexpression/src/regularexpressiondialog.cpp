@@ -50,7 +50,7 @@
 **
 ****************************************************************************/
 
-#include "regularexpressiondialog.h"
+#include <regularexpressiondialog.h>
 
 #include <QApplication>
 
