@@ -13,7 +13,7 @@ set(SRCS
 sslechoserver.cpp
 )
 
-qt5_add_resources(RESOURCES securesocketclient.qrc)
+qt5_add_resources(RESOURCES resources/securesocketclient.qrc)
 qt5_wrap_cpp(MOC_SRCS ${MOC_HDRS})
 
 add_executable(sslechoserver ${MOC_SRCS} ${SRCS} ${RESOURCES} main.cpp)
