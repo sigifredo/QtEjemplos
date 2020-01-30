@@ -1,7 +1,7 @@
 project(pinchzoom)
 cmake_minimum_required(VERSION 3.1.0)
 
-include("config/pinchzoom.cmake")
+include("config/project.cmake")
 include("config/deps.cmake")
 
 set(MOC_HDRS
