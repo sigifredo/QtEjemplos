@@ -18,6 +18,6 @@ src/Mouse.cpp
 qt5_add_resources(RSRCS resources/mice.qrc)
 qt5_wrap_cpp(MOC_SRCS ${MOC_HDRS})
 
-add_executable(pinchzoom ${HDRS} ${MOC_SRCS} ${SRCS} ${RSRCS})
+add_executable(${PROJECT_NAME} ${HDRS} ${MOC_SRCS} ${SRCS} ${RSRCS})
 
-qt5_use_modules(pinchzoom Core Widgets)
+qt5_use_modules(${PROJECT_NAME} Core Widgets)
